@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* regole generali per la pagina*/
+.padding_top_standard {
+  padding-top: 30px;
+}
+.padding_bottom_standard {
+  padding-bottom: 30px;
+}
+.padding_top_small {
+  padding-top: 15px;
+}
+.padding_bottom_small {
+  padding-bottom: 15px;
+}
+.bg_grey {
+  background-color: lightgrey;
+}
+.bg_lightblue {
+  background-color: dodgerblue;
+}
+.bg_blue {
+  background-color: navy;
+}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
+}
+.text_white {
+  color: white;
+}
+.bold {
+  font-weight: bold;
+}
+.half {
+  font-size: 0.5em;
+}
+.one_point_five {
+  font-size: 1.5em;
+}
+.double {
+  font-size: 2em;
+}
+.triple {
+  font-size: 3em;
+}
+.quadruple {
+  font-size: 4em;
+}
+button {
+transform:translateY(-25%);
+}
+.header_top {
+position: fixed;
+top: 0;
+left: 0;
+z-index: 3;
+width: 100%;
+}
+.collapse .nav  #bottone {
+border: 1px solid dodgerblue;
+color: dodgerblue;
+background-color:rgb(237, 237, 237);
+}
+.collapse .spostato {
+margin-left: 10%;
+}
+/* fine regole generali per la pagina*/
+.sinistra {
+background-color: red;
+}
+.destra {
+background-color: green;
+}
+ .dest #bottone {
+margin-left: 35%;
+}
+.jumbo_tron {
+
+border: 1px solid red;
+margin-top:10.5vh;
+}
+/* fine jumbo_tron  */
+/* inizio main */
+
+/* fine main  */
