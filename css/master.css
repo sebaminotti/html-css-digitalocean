@@ -1,62 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* regole generali per la pagina*/
-.padding_top_standard {
-  padding-top: 30px;
-}
-.padding_bottom_standard {
-  padding-bottom: 30px;
-}
-.padding_top_small {
-  padding-top: 15px;
-}
-.padding_bottom_small {
-  padding-bottom: 15px;
-}
-.bg_grey {
-  background-color: lightgrey;
-}
-.bg_lightblue {
-  background-color: dodgerblue;
-}
-.bg_blue {
-  background-color: navy;
-}
-.wrapper {
-  width: 50%;
-  margin: 0 auto;
-}
-.wrapper_80 {
-  width: 80%;
-  margin: 0 auto;
-}
-.text_white {
-  color: white;
-}
-.bold {
-  font-weight: bold;
-}
-.half {
-  font-size: 0.5em;
-}
-.one_point_five {
-  font-size: 1.5em;
-}
-.double {
-  font-size: 2em;
-}
-.triple {
-  font-size: 3em;
-}
-.quadruple {
-  font-size: 4em;
-}
-button {
-transform:translateY(-25%);
-}
+
 .header_top {
 position: fixed;
 top: 0;
@@ -64,30 +6,159 @@ left: 0;
 z-index: 3;
 width: 100%;
 }
-.collapse .nav  #bottone {
+button {
+transform:translateY(-25%);
+}
+.wrap_80 {
+width: 80%;
+margin: 0 auto;
+padding-top:5px;
+}
+.wrapper90 {
+width: 90%;
+margin: 0 auto;
+}
+}
+#bottone {
 border: 1px solid dodgerblue;
-color: dodgerblue;
-background-color:rgb(237, 237, 237);
+color:dodgerblue;
 }
 .collapse .spostato {
+margin-left:10%;
+}
+.logo {
+width:200px;
+margin-left:9vw;
+}
+.logo img {
+width: 100%;
+transform: translateY(-25%);
+}
+.dest {
+margin-right: 10%;
+}
+.navbar-default {
+background-color: white;
+}
+.header_bottom {
+height: 60vh;
+margin-top: 10vh;
+background-image:url(../img/jumbo.svg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+/* fine header top  */
+/* inizio jumbotron */
+.testopricipale h1, p {
+color: white;
+margin-left: 15%;
+padding-top: 5%;
+margin-top: 5%;
+}
+.formi {
+background-color: white;
+padding-left:2%;
+padding-right:2%;
+border-radius: 2%;
 margin-left: 10%;
+margin-top:  7%;
+height: 53vh;
+width: 60%;
 }
-/* fine regole generali per la pagina*/
-.sinistra {
-background-color: red;
+.login {
+color:#2d2d2d;
+font-size: 1.6em;
 }
-.destra {
-background-color: green;
+#createaccount {
+background-color: dodgerblue;
+width:100%;
 }
- .dest #bottone {
-margin-left: 35%;
+.googlelogo {
+float: left;
+display: inline-block;
+width: 30px;
+height: 30px;
 }
-.jumbo_tron {
-
+.googlelogo img {
+width: 100%;
+margin-top: 8px;
+}
+.sgoogle h4 {
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+margin-left: 10%;
+float: left;
+border:1px solid lightgrey;
+border-radius:3px;
+background-color: white;
+font-size: 1.6em;
+color: #2d2d2d;
+}
+.sgoogle a {
+text-decoration: none;
+}
+/* fine parte di jumbotron */
+/* .soci */
+.box_soci {
+width: 100%;
+height: 30vh;
+background-color: #f8f8f8;
+}
+.costumer {
+background-color: #f8f8f8;
+}
+.box {
+width: 200px;
+height: 90px;
+margin-left: 20px;
+}
+.costumer a {
+text-decoration: none;
+}
+/* fine sezione soci o sponsor  */
+/* inizio deploy */
+.deploy-testo {
+margin-top: 4%;
+width: 100%;
+height: 20vh;
 border: 1px solid red;
-margin-top:10.5vh;
 }
-/* fine jumbo_tron  */
-/* inizio main */
+.deploy {
+height: 60vh;
+border: 1px solid red;
+}
+.top {
+border: 1px solid green;
+  height:29vh;
+}
+.bottom {
+border: 1px solid orange;
+height: 29vh;
+}
 
-/* fine main  */
+.menudeploy {
+border-left:1px solid grey;
+height: 8vh;
+margin-top: 0;
+margin-bottom:-3vh;
+margin-left: 20%;
+}
+.menudeploy H5 {
+font-weight: bold;
+}
+.menudeploy:nth-last-child(1) {
+  height: 4vh;
+}
+.menudeploy a {
+text-decoration:none;
+}
+.testodeploy h4 {
+color: darkblue;
+font-size: 2em;
+}
+.testodeploy h6 {
+font-size: 1.3em;
+padding-bottom: 2vh;
+}

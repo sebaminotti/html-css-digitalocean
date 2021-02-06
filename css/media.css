@@ -1,0 +1,41 @@
+@media  screen and (max-width:768px) {
+.formi {
+margin-left: 20%;
+margin-top: 1%;
+border: 1px solid #2d2d2d;
+height: 79vh;
+}
+.header_bottom {
+height: 140vh;
+}
+.soci .titolo_soci h4 {
+font-size: 0.8em;
+
+}
+ .box_soci{
+margin-top:50px;
+height: 70vh;
+}
+.box {margin-left: 5%;
+}
+.deploy-testo {
+height:  30vh;
+}
+.deploy {
+  height: 152vh;
+}
+.sezione_4{margin-top: 3vh;}
+}
+
+@media screen and (max-width:441px) {
+  .box {
+  margin-left: 25%;
+  }
+  .box_soci {
+  height: 120vh;
+  }
+  .deploy-testo {
+    height: 40vh;
+  }
+
+}
