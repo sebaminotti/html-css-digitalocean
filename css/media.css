@@ -22,9 +22,37 @@ height: 70vh;
 height:  30vh;
 }
 .deploy {
-  height: 152vh;
+  height: 155vh;
 }
-.sezione_4{margin-top: 3vh;}
+.sezione_4 {margin-top: 3vh;
+}
+.dev h2 {
+font-size: 1.5em;
+}
+.img_dev_center img {
+font-size: 40vw;
+margin-top: 15vh;
+}
+.img_dep_dev img {
+width: 30vw;
+height: 25vh;
+margin-top: 8vh;
+}
+.img_dev {
+  height: 40vh;
+}
+.chevron_left {
+color: darkblue;
+font-weight: bold;
+font-size: 2em;
+margin-top: 20vh;
+}
+
+.chevron_right  {
+font-weight: bold;
+font-size: 2em;
+margin-top: 20vh;
+}
 }
 
 @media screen and (max-width:441px) {

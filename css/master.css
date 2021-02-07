@@ -123,19 +123,15 @@ text-decoration: none;
 margin-top: 4%;
 width: 100%;
 height: 20vh;
-border: 1px solid red;
 }
 .deploy {
-height: 60vh;
-border: 1px solid red;
+height: 65vh;
 }
-.top {
-border: 1px solid green;
-  height:29vh;
+.top  {
+  height:30vh;
 }
 .bottom {
-border: 1px solid orange;
-height: 29vh;
+height: 30vh;
 }
 
 .menudeploy {
@@ -162,3 +158,53 @@ font-size: 2em;
 font-size: 1.3em;
 padding-bottom: 2vh;
 }
+
+/* FINE SEZIONE DEPLOY */
+
+/* INIZIO SEZIONE DESIGNED FOR DEVELOPER  */
+.DESIGNED_FOR_DEV {
+width: 100%;
+background-color: #F8F8F8;
+height: 95VH;
+}
+.dev h2 {
+color: darkblue;
+font-size: 3.5em;
+font-weight: bold;
+}
+.dev span {
+font-size: 1.7em;
+}
+.img_dev {
+  margin-top: 4vh;
+  margin-left: 50%;
+  transform: translate(-50%);
+width:60vw;
+height: 54vh;
+}
+
+.img_dep_dev img {
+width: 100%;
+}
+.chevron_left {
+color: darkblue;
+font-weight: bold;
+font-size: 4em;
+margin-top: 20vh;
+}
+.chevron_right {
+color: grey;
+font-weight: bold;
+font-size: 4em;
+margin-top: 20vh;
+}
+.circle i {
+color: blue ;
+font-size: 1.5em;
+margin-left:3px;
+}
+.circle i:hover {
+background:darkblue;
+border-radius: 50%;
+}
+/* fine for developer  */
