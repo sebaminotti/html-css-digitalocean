@@ -164,7 +164,7 @@ padding-bottom: 2vh;
 /* INIZIO SEZIONE DESIGNED FOR DEVELOPER  */
 .DESIGNED_FOR_DEV {
 width: 100%;
-background-color: #F8F8F8;
+background-color: #efefef;
 height: 95VH;
 }
 .dev h2 {
@@ -175,29 +175,15 @@ font-weight: bold;
 .dev span {
 font-size: 1.7em;
 }
-.img_dev {
-  margin-top: 4vh;
-  margin-left: 50%;
-  transform: translate(-50%);
-width:60vw;
-height: 54vh;
-}
 
-.img_dep_dev img {
+.imgdev img {
 width: 100%;
 }
-.chevron_left {
-color: darkblue;
-font-weight: bold;
-font-size: 4em;
-margin-top: 20vh;
+.chevron {
+margin-top: 18%;
+font-size: 3em;
 }
-.chevron_right {
-color: grey;
-font-weight: bold;
-font-size: 4em;
-margin-top: 20vh;
-}
+
 .circle i {
 color: blue ;
 font-size: 1.5em;
@@ -207,4 +193,102 @@ margin-left:3px;
 background:darkblue;
 border-radius: 50%;
 }
+
 /* fine for developer  */
+
+
+/* inizio business features */
+.features {
+margin-top: 9vh;
+height: 50vh;
+}
+
+.features h2 {
+color: darkblue;
+font-weight: 700;
+}
+.centrale h4 {
+color: darkblue;
+font-weight: 600;
+}
+.centrale span {
+font-size: 1.3em;
+}
+.centrale a {
+font-weight: 600;
+text-decoration:none;
+}
+/* fine sezione business features */
+/* inizio dodici regions  */
+.dodici_region {
+height: 50vh;
+background-color: #001fe2;
+}
+.dodici_region h2 {
+  color: white;
+  margin-top: 2%;
+  font-weight:500;
+}
+.dodici_left hr, .dodici_right hr {
+width:99%;
+margin-right: 7%;
+}
+.dodici_region {
+color: white;
+}
+.dodici_region a {
+color: cyan;
+text-decoration: none;
+}
+/* fine dodici regions */
+
+/* inizio roketbox */
+.roketbox {
+height:70vh;
+
+background-color:#efefef;
+}
+.posizione2 {
+background-color: white;
+height: 70vh;
+}
+.roket h2 {
+color: darkblue;
+letter-spacing: 3px;
+font-size: 6em;
+}
+#testo h3 {
+font-size: 3em;
+}
+.read a {
+text-decoration: none;
+font-size: 1.4em;
+font-weight: 500;
+}
+.sub  {
+color:black;
+}
+.circolo {
+margin-top: 2vh;
+}
+/* fine rocketbox */
+.prefooter {
+height: 30vh;
+background-color:#001fe2;
+}
+.prefooter h2 {
+margin-top: 7vh;
+color: white;
+font-weight:600;
+}
+#account {
+margin-top: 5vh;
+color: dodgerblue;
+background-color: white;
+padding: 15px 15px;
+}
+#account a {
+text-decoration: none;
+color:  dodgerblue;
+
+}

@@ -33,26 +33,25 @@ font-size: 1.5em;
 font-size: 40vw;
 margin-top: 15vh;
 }
-.img_dep_dev img {
-width: 30vw;
-height: 25vh;
+.imgdev {
+
+}
+.features {
+height: 115vh;
+}
+.dodici_region {
+height: 120vh;
+}
+.dodici_right {
 margin-top: 8vh;
 }
-.img_dev {
-  height: 40vh;
+.roket h2 {
+font-size: 1em;
 }
-.chevron_left {
-color: darkblue;
-font-weight: bold;
-font-size: 2em;
-margin-top: 20vh;
+#testo h3 {
+font-size: 1em;
 }
 
-.chevron_right  {
-font-weight: bold;
-font-size: 2em;
-margin-top: 20vh;
-}
 }
 
 @media screen and (max-width:441px) {
@@ -65,5 +64,11 @@ margin-top: 20vh;
   .deploy-testo {
     height: 40vh;
   }
-
+  .dev {
+  font-size: 1.2em;
+  }
+.chevron {
+font-size: 2em;
+margin-bottom:6vh;
+}
 }
