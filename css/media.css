@@ -1,74 +1,39 @@
-@media  screen and (max-width:768px) {
-.formi {
-margin-left: 20%;
-margin-top: 1%;
-border: 1px solid #2d2d2d;
-height: 79vh;
+/* media uno */
+@media screen and (max-width:976px) {
+  .navbar-right {
+  display: none;
+  }
+  .logo img {
+  float: left;
+  }
+  .dodici_region h2 {
+  font-size: 1.4em;
+  }
+  .roket h2 {
+  font-size: 1.4em;
+  }
 }
-.header_bottom {
-height: 140vh;
-}
-.soci .titolo_soci h4 {
-font-size: 0.8em;
-
-}
- .box_soci{
-margin-top:50px;
-height: 70vh;
-}
-.box {margin-left: 5%;
-}
-.deploy-testo {
-height:  30vh;
-}
-.deploy {
-  height: 155vh;
-}
-.sezione_4 {margin-top: 3vh;
-}
-.dev h2 {
-font-size: 1.5em;
-}
-.img_dev_center img {
-font-size: 40vw;
-margin-top: 15vh;
-}
-.imgdev {
-
-}
-.features {
-height: 115vh;
-}
-.dodici_region {
-height: 120vh;
-}
-.dodici_right {
-margin-top: 8vh;
-}
-.roket h2 {
-font-size: 1em;
-}
-#testo h3 {
-font-size: 1em;
-}
-
-}
-
-@media screen and (max-width:441px) {
+@media screen and (max-width:769px) {
+  .jumbo {
+  height: 130vh;
+  }
+  .jumbo_right {
+  height: 70vh;
+  }
+  .testo_main h4 {
+  font-size: 1em;
+  }
   .box {
-  margin-left: 25%;
+  margin-top: 2%;
   }
-  .box_soci {
-  height: 120vh;
+  .dodici_region h2 {
+  font-size: 1.4em;
   }
-  .deploy-testo {
-    height: 40vh;
+  .roket h2 {
+  font-size: 1.4em;
   }
-  .dev {
-  font-size: 1.2em;
+  .testo .row h3 {
+  font-size: 1.5em;
   }
-.chevron {
-font-size: 2em;
-margin-bottom:6vh;
-}
+
 }
